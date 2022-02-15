@@ -1,0 +1,492 @@
+*{
+    margin: 0px;
+    font-family: "Product Sans",Arial,Helvetica,sans-serif;
+    box-sizing: border-box;
+}
+
+/* Tags */
+a {
+    text-decoration: none;
+}
+a:visited{
+    border-bottom: 1px solid #1a73e8;
+}
+li{
+    list-style: none;
+}
+
+/* navbar section */
+#navbar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+    border: 2px solid white;
+    box-shadow: 0 3px 4px rgb(0 0 0 / 0.1);
+    background-color: #fff;
+    z-index: 1;
+}
+#navbar a{
+    text-decoration: none;
+}
+
+.left-section{
+    display: flex;
+}
+.left-section a{
+    margin: 10px 3px;
+    color: #5f6368;
+    padding: 10px;
+    height: 50px;
+}
+.left-section a:hover{
+    color: #5f6368;
+}
+.right-section{
+    display: flex;
+}
+.right-section a{
+    margin: 10px 5px;
+    /* color: #1a73e8; */
+    font-style: normal;
+    height: 50px;
+}
+.signin{
+    color: #1a73e8;
+    padding: 10px;
+}
+.signin:hover{
+    color: #1a73e8;
+}
+.manage-btn{
+    background-color: #1a73e8;
+    color: white;
+    padding:10px;
+    text-decoration: none;
+}
+.manage-btn:hover{
+    color: white;
+}
+.menu-bar{
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+.close-menu-bar{
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+.responsive-menubar{
+    display: block;
+}
+.arrow{
+    width: 16px;
+    height: 16px;
+}
+#responsive-navigation{
+    display: none;
+}
+
+
+
+/* content section */
+#content{
+    display: flex;
+    padding: 10%;
+    
+}
+.scroll{
+    padding: 20px;
+    overflow: scroll;
+    height: 630px;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.scroll1{
+    width: 60%;
+    margin: 150px 0px;
+    margin-left: 100px;
+}
+.image{
+    padding: 20px;
+}
+.image img{
+    width: 75%;
+    height: 80%;
+}
+.para{
+    padding: 20px 5px;
+}
+.para-link{
+    text-decoration: none;
+    font-size: 18px;
+}
+.para-link-svg{
+    width: 15px;
+    height: 15px;
+    fill: #1a73e8;
+}
+/* connection section */
+#connection{
+    background-color: #fff;
+    padding:  10px;
+    background-color: #f8f9fa;
+}
+.connect{
+    width: 60%;
+    margin: auto;
+}
+.connect-heading{
+    margin: auto;
+    width: 63%;
+}
+.connection-buttons{
+    padding: 10px;
+    padding-left: 30%;
+}
+.connect-btn1{
+    width: 150px;
+    background-color: white;
+    border: 1px solid #fff;
+    box-shadow:  1px 2px 5px 4px rgb(0 0 0 / 0.1);
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+    color: #1a73e8;
+    margin-right: 40px;
+    font-size: 13px;
+}
+.connect-btn-svg1{
+    width: 13px;
+    height: 13px;
+    fill: #1a73e8;
+    margin-right: 3px;
+}
+.connect-btn2{
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+    padding: 5px;
+}
+.connect-btn-svg2{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
+/* customers div */
+.customers{
+    display: flex;
+    padding: 0 10%;
+}
+.customer-content{
+    padding: 10px;
+    padding-top: 13%;
+}
+.para-link a{
+    text-decoration: none;
+}
+.customer-text{
+    margin-left: 100px;
+    width: 60%;
+}
+.customer-img img{
+    margin-left: 150px;
+    width: 50%;
+    height: 80%;
+}
+.para{
+    color: #5f6368;
+}
+/* business-management section */
+.management{
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+}
+.management-logo{
+    width: 40%;
+    height: 40%;
+}
+.management-heading{
+    text-align: left;
+    margin: 20px 0px;
+}
+
+/* footer */
+footer{
+    background-color: #f8f9fa;
+    padding: 5px 8%;
+}
+.footer-logo{
+    margin-top: 3px;
+    width: 25px;
+    height: 25px;
+}
+#social{
+    padding: 10px 0px;
+}
+.social-para{
+    width: 10%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.social-media{
+    width: 80%;
+    display: flex;
+}
+.social-media-list{
+    margin: 5px 10px;
+}
+.social-link{
+    display: flex;
+}
+
+/* navigation section */
+#navigation{
+    border-top: 1px solid #dadce0;
+    border-bottom: 1px solid #dadce0;
+    width: 90%;
+    margin-left: 20px;
+}
+.navigation-pages{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+.nav-heading{
+    font-size: 16px;
+}
+.one li{
+    margin: 20px 0px;
+}
+.one li a{
+    color: #5f6368;
+    font-size: 14px;
+    margin: 10px 0px;
+    text-decoration: none;
+}
+/* global section */
+.h-c-footer__global{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+.global-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.global-links-ul{
+    display: flex;
+}
+.global-links-ul li{
+    margin-right: 10px;
+}
+.global-links-ul li a{
+    text-decoration: none;
+    color: #5f6368;
+}
+.global-link-svg{
+    width: 15px;
+    height: 15px;
+}
+.global-link-right{
+    display: flex;
+}
+.h-c-footer__logo{
+    display: inline;
+}
+.h-c-footer__link{
+    text-decoration: none;
+    color: #5f6368;
+}
+.h-c-footer__logo a{
+    font-size: 30px;
+}
+
+/* responsive */
+@media (max-width:830px){
+    /* navbar section */
+    #navbar{
+        position: fixed;
+        flex-direction: column;
+        width: 40%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        border: 1px solid #fff;
+        box-shadow: 0 3px 4px rgb(0 0 0 / 0.1);
+        display: none;
+    }
+    #navbar a{
+        width: 60%;
+    }
+    .left-section{
+        flex-direction: column;
+    }
+    .right-section{
+        flex-direction: column;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .close-menu-bar{
+        display: block;
+        margin-left: 80%;
+        margin-top: 20px;
+    }
+    .responsive-menubar{
+        display: block;
+        display: flex;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-color: #fff;
+        justify-content: space-between;
+        padding: 20px;
+        border: 1px solid #fff;
+        box-shadow: 0 3px 4px rgb(0 0 0 / 0.1);
+        /* z-index: 1; */
+    }
+    .responsive-logo{
+        color: #5f6368;
+        text-decoration: none;
+    }
+    /* content section */
+    #content{
+        flex-direction: column;
+    }
+    /* connection section */
+    #connection{
+        padding: 0;
+    }
+    .connect{
+        margin: 0;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    /* customers section */
+    .customers{
+        padding: 0;
+    }
+    /* footer section */
+    footer{
+        padding: 0;
+    }
+    #social{
+        padding: 0;
+    }
+    .social-link{
+        padding: 0;
+        width: 100%;
+    }
+    .social-para{
+        width: 20%;
+    }
+    /* navigation section */
+    #navigation{
+        display: none;
+    }
+    #responsive-navigation{
+        display: block;
+    }
+    .q-para{
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #dadce0;
+    }
+    .one{
+        display: none;
+    }
+    /* global-links div */
+    .h-c-footer__global{
+        flex-direction: column;
+    }
+    .global-links{
+        flex-direction: column;
+    }
+    .h-c-footer__global-links{
+        flex-direction: column;
+    }
+    @media (max-width:530px){
+        #navbar{
+            width: 100%;
+        }
+        #content{
+            margin-right: -25px;
+        }
+        .scroll{
+            padding: 0;
+        }
+        .scroll1{
+            width: 80%;
+            margin-left: 20px;
+        }
+        #business-management{
+            margin-right: -25px;
+            padding: 0px;
+        }
+        .management{
+            width: 70%;
+        }
+        #connection{
+            margin-right: -25px;
+        }
+        .customers{
+            flex-direction: column;
+            padding: 0;
+        }
+        .customer-content{
+            padding: 0;
+        }
+        .customer-text{
+            width: 80%;
+            margin-left: 20px;
+        }
+        .customer-img img{
+            margin-left: 20%;
+        }
+        footer{
+            margin-right: -25px;
+        }
+        .social-para{
+            width: 30%;
+        }
+        @media (max-width:330px){
+            #content{
+                margin-right: -130px;
+            }
+            #business-management{
+                margin-right: -130px;
+                padding: 0px;
+            }
+            #connection{
+                margin-right: -130px;
+            }
+            footer{
+                margin-right: -130px;
+            }
+            .h-c-footer__global-links-list-item{
+                width: 80%;
+            }
+        }
+    }
+}
